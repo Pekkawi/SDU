@@ -38,14 +38,14 @@ const App = () => {
           <h1 className="mr-2 px-4 py-2"> Random Name</h1>
           <button
             className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100
-          focus:ring-gray-200 font-medium rounded-full text-sm  mr-2 px-4 py-2"
+           font-medium rounded-md text-sm  mr-2 px-4 py-2"
           >
             Log in
           </button>
         </div>
       </header>
 
-      <main className="m-0 p-0 w-full bg-[#f9fafe] min-h-[93vh] grid grid-cols-2 gap-0 ">
+      <main className="m-0 p-0 w-full bg-[#f9fafe] min-h-[93vh] flex">
         <div className="col-span-1 w-[185px] bg-white border-r border-r-[#e6ebf4] sticky">
           <LinkTemplate text="Dashboard" source={dashboard} thePath="/" />
           <LinkTemplate text="Machines" source={machines} thePath="/machines" />
@@ -61,7 +61,7 @@ const App = () => {
           <LinkTemplate text="Help" source={help} thePath="/help" />
         </div>
 
-        <div className="col-span-1 w-auto">
+        <div className=" w-auto">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/feedback" element={<Feedback />} />
