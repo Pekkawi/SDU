@@ -15,30 +15,27 @@ const FeedBackTemplate = () => {
             required
             placeholder="Type*"
             className="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-left"
+            data-te-select-init
           >
-            <option value="0" className="rounded-lg">
-              Feature Request
-            </option>
-            <option value="1" className="rounded-lg">
-              Bug report
-            </option>
+            <option value="0">Feature Request</option>
+            <option value="1">Bug report</option>
           </select>
         </div>
-        <div class="mt-5">
+        <div class="mt-8">
           <input
             type="text"
             placeholder="Title*"
             className="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 "
           />
         </div>
-        <div class="mt-5">
-          <input
+        <div class="mt-8">
+          <textarea
             type="text"
             placeholder="Description*"
-            className="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 "
+            className="appearance-none w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 "
           />
         </div>
-        <div class="mt-5">
+        <div class="mt-8 mb-5">
           <button
             className="w-full bg-purple-500 py-3 text-center text-white rounded-lg"
             type="button"

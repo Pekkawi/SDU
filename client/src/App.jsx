@@ -61,7 +61,7 @@ const App = () => {
           <LinkTemplate text="Help" source={help} thePath="/help" />
         </div>
 
-        <div className=" w-auto">
+        <div className="w-auto grow">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/feedback" element={<Feedback />} />
