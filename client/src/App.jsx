@@ -26,7 +26,7 @@ import {
   help,
 } from "./assets";
 
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { LinkTemplate } from "./components/LinkTemplate";
 
 const App = () => {
@@ -34,8 +34,14 @@ const App = () => {
     <BrowserRouter>
       <header className="w-full flex justify-between items-center bg-white m-0 sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] max-h-[7vh] sticky">
         <h1 className="text-[1.5em]">SDU - The Core</h1>
-        <div>
-          <h1> Log in </h1>
+        <div className="flex">
+          <h1 className="mr-2 px-4 py-2"> Random Name</h1>
+          <button
+            className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100
+          focus:ring-gray-200 font-medium rounded-full text-sm  mr-2 px-4 py-2"
+          >
+            Log in
+          </button>
         </div>
       </header>
 
