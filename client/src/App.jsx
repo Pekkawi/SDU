@@ -32,7 +32,7 @@ import { LinkTemplate } from "./components/LinkTemplate";
 const App = () => {
   return (
     <BrowserRouter>
-      <header className="w-full flex justify-between items-center bg-white m-0 sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] min-h-[10vh] sticky">
+      <header className="w-full flex justify-between items-center bg-white m-0 sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] min-h-[10vh] sticky shadow-lg">
         <h1 className="text-[1.5em]">SDU - The Core</h1>
         <div className="flex">
           <h1 className="mr-2 px-4 py-2"> Random Name</h1>
