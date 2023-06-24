@@ -40,7 +40,7 @@ const App = () => {
       </header>
 
       <main className="m-0 p-0 w-full bg-[#f9fafe] min-h-[93vh] grid grid-cols-2 gap-0 ">
-        <div className="col-span-1 w-[185px] bg-white border-r border-r-[#e6ebf4] ml-0 sticky">
+        <div className="col-span-1 w-[185px] bg-white border-r border-r-[#e6ebf4] sticky">
           <LinkTemplate text="Dashboard" source={dashboard} thePath="/" />
           <LinkTemplate text="Machines" source={machines} thePath="/machines" />
           <LinkTemplate text="Profile" source={profile} thePath="/profile" />

@@ -1,6 +1,5 @@
-import Card from "./card";
-import FormField from "./FormField";
 import Loader from "./Loader";
+import LinkTemplate from "./LinkTemplate";
 
-export { Card, FormField, Loader };
+export { LinkTemplate, Loader };
 //this is pretty simple
