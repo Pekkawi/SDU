@@ -14,7 +14,7 @@ function Help() {
       <a href="https://docs.thecore.sdu.dk/">
         <button
           className="text-white bg-purple-500 border border-gray-300 focus:outline-none
-           font-medium rounded-md text-sm  mr-2 px-6 py-2 mt-6 mb-6"
+           font-medium rounded-md text-sm  mr-2 px-6 py-3 mt-6 mb-6"
           type="button"
         >
           SHOW DOCUMENTATION

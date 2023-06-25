@@ -24,7 +24,7 @@ function Feedback() {
           <input
             type="text"
             placeholder="Title*"
-            className="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 "
+            className="w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500 py-3"
           />
         </div>
         <div class="mt-8">
