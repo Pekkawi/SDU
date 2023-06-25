@@ -1,5 +1,5 @@
 import Loader from "./Loader";
 import LinkTemplate from "./LinkTemplate";
+import TitleDescription from "./TitleDescription";
 
-export { LinkTemplate, Loader };
-//this is pretty simple
+export { TitleDescription, LinkTemplate, Loader };
