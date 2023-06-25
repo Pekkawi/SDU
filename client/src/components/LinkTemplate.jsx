@@ -14,3 +14,5 @@ export const LinkTemplate = ({ text, source, thePath }) => {
     </>
   );
 };
+
+export default LinkTemplate;

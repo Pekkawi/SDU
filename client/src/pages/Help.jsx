@@ -1,5 +1,4 @@
 import React from "react";
-import FeedBackTemplate from "../components/FeedBackTemplate";
 
 function Help() {
   return (
@@ -14,15 +13,13 @@ function Help() {
       </p>
       <a href="https://docs.thecore.sdu.dk/">
         <button
-          className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200
+          className="text-white bg-purple-500 border border-gray-300 focus:outline-none
            font-medium rounded-md text-sm  mr-2 px-6 py-2 mt-6 mb-6"
           type="button"
         >
           SHOW DOCUMENTATION
         </button>
       </a>
-
-      <FeedBackTemplate />
     </div>
   );
 }

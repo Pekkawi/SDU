@@ -11,7 +11,7 @@ function Dashboard() {
         account.
       </p>
       <button
-        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200
+        className="text-white bg-purple-500 border border-gray-300 focus:outline-none
            font-medium rounded-md text-sm  mr-2 px-6 py-2 mt-6"
       >
         Log in
